@@ -101,15 +101,17 @@ ___
 ## **Setup** :
 ### 1. Clone/Download the Repository
 
-### 2. Install Dependencies:
+### 2. Install Hardhat(v 2.9.2) first and then the dpendencies :
+Create folder and a sub-folder of your choice. Here sub-folder is named 'dwitter'. We extract the repo in this 'sub-folder'. Open 'folder' in terminal. Now start pasting this commands
 ```
-$ cd decentratwitter
-$ npm install
+npm install --save-dev hardhat@2.9.2
+cd dwitter
+npm install
 ```
 ### 3. Boot up local development blockchain
 ```
-$ cd decentratwitter
-$ npx hardhat node
+cd dwitter
+npx hardhat node
 ```
 
 ### 4. Connect development blockchain accounts to Metamask
@@ -119,13 +121,13 @@ $ npx hardhat node
 
 
 ### 5. Run deploy script to migrate smart contracts
-`$ npx hardhat run scripts/deploy.js --network localhost`
+`npx hardhat run scripts/deploy.js --network localhost`
 
 ### 6. Run Tests
-`$ npx hardhat test`
+` npx hardhat test`
 
 ### 7. Launch Frontend
-`$ npm run start`
+`npm run start`
  
 ___
 # Thank You for your time !
