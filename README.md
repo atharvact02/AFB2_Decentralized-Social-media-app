@@ -110,7 +110,6 @@ npm install
 ```
 ### 3. Boot up local development blockchain
 ```
-cd dwitter
 npx hardhat node
 ```
 
