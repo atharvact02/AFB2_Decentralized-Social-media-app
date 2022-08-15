@@ -12,6 +12,8 @@ ___
 
 ## **Secondary Mentor** : Nilay Ganvit
 ___
+## **URL** : https://dwitter-afb2-soc.netlify.app/
+___
 ## **Project Overview** :
 
 This is a decentralized twitter(named ‘Dwitter’) which has basic features of Twitter and UI resembling that of Tumblr. There is also an option to send tokens through the ‘tip’ feature <br /> 
