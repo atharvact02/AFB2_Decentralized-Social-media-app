@@ -12,7 +12,7 @@ ___
 
 ## **Secondary Mentor** : Nilay Ganvit
 ___
-## **URL** : https://dwitter-afb2-soc.netlify.app/
+## **URL** : https://dwitter-iitisoc-afb2.netlify.app/
 ___
 ## **Project Overview** :
 
