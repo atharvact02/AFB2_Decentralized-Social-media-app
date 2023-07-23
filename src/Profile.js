@@ -6,7 +6,7 @@ import { Row, Form, Button, Card, ListGroup, Col } from 'react-bootstrap'
 
 import { Buffer } from 'buffer';
 const ipfsClient = require('ipfs-http-client');
-const projectId ='2DFvB14VNJTKzBTaKo7R0T4baFx';
+const projectId = '2DFvB14VNJTKzBTaKo7R0T4baFx';
 const projectSecret = 'fffa88ea6938eba3b0a044a063e1d52c';
 const auth =
     'Basic ' + Buffer.from(projectId + ':' + projectSecret).toString('base64');
@@ -96,7 +96,7 @@ const App = ({ contract }) => {
     if (loading) return (
         <div className='text-center'>
             <main style={{ padding: "1rem 0" }}>
-                <h2>Loading...</h2>
+                <h2>Loading......</h2>
             </main>
         </div>
     )
